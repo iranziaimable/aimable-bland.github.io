@@ -32,6 +32,71 @@
 .sidebar-brand {
   height: 100px;
 }
-.main-content {
- display: flex;
+.contents {
+  margin-left: 300px;
+}
+.contents h3 {
+  margin-top: 20px;
+  margin-left: 40%;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  font-family: "Poppins", sans-serif;
+}
+
+.right {
+  display: flex;
+}
+
+form {
+  margin-top: 40px;
+}
+
+.contact-form {
+    margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  width: 500px;
+  background-color: var(--light);
+  box-shadow: 0 0 20px 0 rgb(242, 184, 184);
+
+  display: flex;
+}
+
+form {
+  margin: 35px;
+  font-family: "Poppins", sans-serif;
+}
+.input-field {
+  font-family: "Poppins", sans-serif;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  font-family: "Poppins", sans-serif;
+  height: 150px;
+  padding-top: 10px;
+}
+
+.btn-contact {
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #da722c;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
 }

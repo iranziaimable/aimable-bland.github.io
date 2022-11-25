@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="siderbar-brand">
+        <div class="brand-flex">
+          <img src="img/admin.png" width="30px" alt="" />
+        </div>
+      </div>
+
+      <div class="siderbar-main">
+        <div class="sidebar-head">
+          <img src="img/Testimonial Image.png" alt="" />
+          <div>
+            <h3 style="color: #fff">Aimable Iranzi</h3>
+            <span style="color: #fff">iranziaimable05@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contents">
+      <h3>Welcome To Aimable's Dashboard</h3>
+      <div class="content">
+        <table>
+          <tr>
+            <th>Name of article</th>
+            <th>Description</th>
+            <th>Dates</th>
+            <th>Image</th>
+            <th>Action</th>
+          </tr>
+          <tr>
+            <td>My blog</td>
+            <td>this about coding</td>
+            <td>24th/11/2022</td>
+            <td><button>Upload Image</button></td>
+            <td>
+              <button>Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+          <tr>
+            <td>My blog</td>
+            <td>this about coding</td>
+            <td>24th/11/2022</td>
+            <td><button>Upload Image</button></td>
+            <td>
+              <button>Edit</button>
+              <button>Delete</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="right">
+        <div class="contact-form">
+          <form action="">
+            <input type="text" class="input-field" placeholder="Article name" />
+            <input
+              type="text"
+              class="input-field"
+              placeholder="Article Description"
+            />
+            <input
+              type="date"
+              class="input-field"
+              placeholder="Enter your Message"
+            />
+            <input type="file" id="myFile" name="filename">
+            <button type="button" class="btn-contact">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
