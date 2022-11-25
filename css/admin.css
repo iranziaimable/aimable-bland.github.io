@@ -1,0 +1,37 @@
+:root {
+  --orange-color: #da722c;
+  --dark-blue-color: #023047;
+  --dark-color: #070917;
+  --light-color: #e8f7fb;
+  --light-blue-color: #6f7dfb;
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.sidebar {
+  width: 280px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 1rem;
+  background: var(--dark-blue-color);
+}
+
+.sidebar-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-brand {
+  height: 100px;
+}
+.main-content {
+ display: flex;
+}
