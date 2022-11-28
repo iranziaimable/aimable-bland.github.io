@@ -81,7 +81,8 @@ nav ul li:hover {
 nav {
   background: var(--light-color);
   height: 80px;
-  width: 70%;
+  width: 80%;
+  border-radius: 8px;
 }
 nav.scrolled {
   background: var(--dark-color);
