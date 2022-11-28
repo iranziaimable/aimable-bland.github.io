@@ -25,58 +25,74 @@
         </div>
       </div>
     </div>
-    <div class="contents">
-      <h3>Welcome To Aimable's Dashboard</h3>
-      <div class="content">
-        <table>
-          <tr>
-            <th>Name of article</th>
-            <th>Description</th>
-            <th>Dates</th>
-            <th>Image</th>
-            <th>Action</th>
-          </tr>
-          <tr>
-            <td>My blog</td>
-            <td>this about coding</td>
-            <td>24th/11/2022</td>
-            <td><button>Upload Image</button></td>
-            <td>
-              <button>Edit</button>
-              <button>Delete</button>
-            </td>
-          </tr>
-          <tr>
-            <td>My blog</td>
-            <td>this about coding</td>
-            <td>24th/11/2022</td>
-            <td><button>Upload Image</button></td>
-            <td>
-              <button>Edit</button>
-              <button>Delete</button>
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div class="right">
-        <div class="contact-form">
-          <form action="">
-            <input type="text" class="input-field" placeholder="Article name" />
-            <input
-              type="text"
-              class="input-field"
-              placeholder="Article Description"
-            />
-            <input
-              type="date"
-              class="input-field"
-              placeholder="Enter your Message"
-            />
-            <input type="file" id="myFile" name="filename">
-            <button type="button" class="btn-contact">Submit</button>
-          </form>
+
+    <div class="wrapper">
+      <h2>Welcome to Admin Dashboard</h2>
+      <section>
+        <input type="button" value="Add" onclick="addArticle()"/>
+        <div class="first">
+          <table id="myArticle">
+            <tr>
+              <th>Name of article</th>
+              <th>Description</th>
+              <th>Dates</th>
+              <th>Image</th>
+              <th>Action</th>
+            </tr>
+            <!-- <tr>
+              <td>My blog</td>
+              <td>this about coding</td>
+              <td>24th/11/2022</td>
+              <td><button>Upload Image</button></td>
+              <td>
+                <button>Edit</button>
+                <button>Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>My blog</td>
+              <td>this about coding</td>
+              <td>24th/11/2022</td>
+              <td><button>Upload Image</button></td>
+              <td>
+                <button>Edit</button>
+                <button>Delete</button>
+              </td>
+            </tr> -->
+          </table>
+
+          <div class="right">
+            <div class="contact-form">
+              <form action="">
+                <input
+                  type="text"
+                  class="input-field"
+                  placeholder="Article name"
+                />
+                <input
+                  type="text"
+                  class="input-field"
+                  placeholder="Article Description"
+                />
+                <input
+                  type="date"
+                  class="input-field"
+                  placeholder="Enter your Message"
+                />
+                <input type="file" id="myFile" name="filename" />
+                <button
+                  type="button"
+                  class="btn-contact"
+                  onclick="addArticle()"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
+    <script src="js/app.js"></script>
   </body>
 </html>

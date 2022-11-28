@@ -58,7 +58,7 @@ form {
 }
 
 .contact-form {
-    margin-top: 30px;
+  margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
   width: 500px;
   background-color: var(--light);
@@ -99,4 +99,25 @@ form {
   font-size: 12px;
   border: none;
   cursor: pointer;
+}
+h2 {
+  margin-top: 10px;
+  margin-left: 40%;
+}
+.wrapper {
+  margin-left: 280px;
+}
+.first {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+table tr th{
+  font-family: "Poppins", sans-serif;
+}
+table {
+  
+  color: #da722c;
+  width: 58%;
+  border: 1px solid #777;
 }

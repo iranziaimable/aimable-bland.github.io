@@ -74,11 +74,14 @@ nav {
   z-index: 100;
   transition: all 500ms ease;
 }
-nav ul li:hover{
-  color:var(--orange-color);
+nav ul li:hover {
+  color: var(--orange-color);
 }
-nav ul li a:hover {
-  color: var(--orange);
+
+nav {
+  background: var(--light-color);
+  height: 80px;
+  width: 70%;
 }
 nav.scrolled {
   background: var(--dark-color);
@@ -493,7 +496,7 @@ form {
   color: #fff;
   margin-top: 18px;
   padding: 10px;
-  background-color: #DA722C;
+  background-color: #da722c;
   font-size: 12px;
   border: none;
   cursor: pointer;
@@ -508,7 +511,6 @@ form {
   }
 }
 /*=============================================================================================*/
-
 
 /*   *********************************************** Blog Section ********************************************************/
 .blog {
